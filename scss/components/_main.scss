@@ -50,13 +50,13 @@ header {
   li{
     list-style-type: none;
     &:first-child a{
-      border-top: 1px solid $light-grey;
+      border-top: 1px solid $white;
     }
     a{
       display: block;
       padding: .5em 1em;
       text-align: center;
-      border-bottom: 1px solid $light-grey;
+      border-bottom: 1px solid $white;
       text-decoration: none;
     }
   }
