@@ -32,12 +32,6 @@ body{
   }
 }
 
-a { 
-  text-decoration: none; 
-}
-
-
-
 header {
   padding: 0 1em;
   position: relative;
@@ -68,14 +62,11 @@ li a:focus {
   @include zero;
   li{
     list-style-type: none;
-    &:first-child a{
-      border-top: 1px solid $white;
-    }
     a{
       display: block;
       padding: .5em 1em;
       text-align: center;
-      border-bottom: 1px solid $white;
+      font-size: 2em;
       text-decoration: none;
     }
   }
@@ -90,7 +81,6 @@ li a:focus {
     @include hide-text;
   } 
   i{
-    border: 1px solid $white;
     padding: .5em;
   }
 }
@@ -120,7 +110,6 @@ li a:focus {
       //Allow expansion of navigation past page height, when open
       overflow: visible;
     }
-
   } //site-wrapper
 
 
@@ -155,20 +144,4 @@ body.noscript .slide-menu{
   background-size: cover;
   background-attachment: fixed;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
